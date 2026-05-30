@@ -41,4 +41,4 @@ A SwiftUI iOS app that reads selected Apple Health data and turns the latest dai
 
 ## License
 
-No license selected yet.
+MIT — see [LICENSE](LICENSE).
