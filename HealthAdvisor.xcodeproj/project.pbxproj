@@ -1,0 +1,272 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		08BD2B7647A941CDA6ED2E2B /* HealthAdvisorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F80F7399EA04B95A1667367 /* HealthAdvisorApp.swift */; };
+		5CE3AA5B5C0E4196B1896D24 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1264852290504B83B3DF84F7 /* ContentView.swift */; };
+		680E4E5F3E8B4A73B7C5F0C1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6F231FA0EF3E4A26B2A1F2A7 /* Assets.xcassets */; };
+		8A90AE23433842B89F9FEE2C /* HealthInsight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EDECC11F40A448E9378F4CE /* HealthInsight.swift */; };
+		9D16B11406134CD7984A6ED8 /* HealthMetric.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A2D1BF12FE4DD1B58E8BBA /* HealthMetric.swift */; };
+		9F497CB5893E414DA97F15E1 /* HealthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7A0A64F3C64405590B46C90 /* HealthManager.swift */; };
+		ED8C08B909564D038432769E /* HealthSnapshot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CFA9D981CD1431F8CC750D7 /* HealthSnapshot.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		01A2D1BF12FE4DD1B58E8BBA /* HealthMetric.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthMetric.swift; sourceTree = "<group>"; };
+		1264852290504B83B3DF84F7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		1CFA9D981CD1431F8CC750D7 /* HealthSnapshot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthSnapshot.swift; sourceTree = "<group>"; };
+		1F80F7399EA04B95A1667367 /* HealthAdvisorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthAdvisorApp.swift; sourceTree = "<group>"; };
+		32CB5527EBE14E3F9F6E9E82 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		5EDECC11F40A448E9378F4CE /* HealthInsight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthInsight.swift; sourceTree = "<group>"; };
+		6F231FA0EF3E4A26B2A1F2A7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		67D59D6474CD45C0820E078C /* HealthAdvisor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HealthAdvisor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		73904A292D634344AE68151A /* HealthAdvisor.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = HealthAdvisor.entitlements; sourceTree = "<group>"; };
+		A267631A4E4D427EB08DF3D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D7A0A64F3C64405590B46C90 /* HealthManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthManager.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3D3A2C6134884613B0914D29 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		26B548B26850442EA782C6CF /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1264852290504B83B3DF84F7 /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		40A0411FB4344586B5B0B94E /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				D7A0A64F3C64405590B46C90 /* HealthManager.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		73E9082E78B04663896BC76E = {
+			isa = PBXGroup;
+			children = (
+				1F80F7399EA04B95A1667367 /* HealthAdvisorApp.swift */,
+				6F231FA0EF3E4A26B2A1F2A7 /* Assets.xcassets */,
+				EDDF606C612C494AA91E71E2 /* Models */,
+				40A0411FB4344586B5B0B94E /* Services */,
+				26B548B26850442EA782C6CF /* Views */,
+				A267631A4E4D427EB08DF3D9 /* Info.plist */,
+				73904A292D634344AE68151A /* HealthAdvisor.entitlements */,
+				32CB5527EBE14E3F9F6E9E82 /* README.md */,
+				74608FEB026749FBAA1AD8BB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		74608FEB026749FBAA1AD8BB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				67D59D6474CD45C0820E078C /* HealthAdvisor.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EDDF606C612C494AA91E71E2 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				01A2D1BF12FE4DD1B58E8BBA /* HealthMetric.swift */,
+				1CFA9D981CD1431F8CC750D7 /* HealthSnapshot.swift */,
+				5EDECC11F40A448E9378F4CE /* HealthInsight.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		98B06D74B463469C95FD2206 /* HealthAdvisor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0AC7D55E188486AB63EF7B4 /* Build configuration list for PBXNativeTarget "HealthAdvisor" */;
+			buildPhases = (
+				B36749BE38DD42AF98E083EC /* Sources */,
+				3D3A2C6134884613B0914D29 /* Frameworks */,
+				42F242AA7B0443E995825FD3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HealthAdvisor;
+			productName = HealthAdvisor;
+			productReference = 67D59D6474CD45C0820E078C /* HealthAdvisor.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F91A821D490248719FBA4E3E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					98B06D74B463469C95FD2206 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = 9AC23568CF79469CBA0046CF /* Build configuration list for PBXProject "HealthAdvisor" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 73E9082E78B04663896BC76E;
+			productRefGroup = 74608FEB026749FBAA1AD8BB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				98B06D74B463469C95FD2206 /* HealthAdvisor */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		42F242AA7B0443E995825FD3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				680E4E5F3E8B4A73B7C5F0C1 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B36749BE38DD42AF98E083EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08BD2B7647A941CDA6ED2E2B /* HealthAdvisorApp.swift in Sources */,
+				9D16B11406134CD7984A6ED8 /* HealthMetric.swift in Sources */,
+				ED8C08B909564D038432769E /* HealthSnapshot.swift in Sources */,
+				8A90AE23433842B89F9FEE2C /* HealthInsight.swift in Sources */,
+				9F497CB5893E414DA97F15E1 /* HealthManager.swift in Sources */,
+				5CE3AA5B5C0E4196B1896D24 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		566D83321909481689B5574E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		818F10ECE71944D79B6C82DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_TESTABILITY = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D8D9963C4C364E4388551BE6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = HealthAdvisor.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.alexdesign.healthadvisor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E47521F9C0EA42288C5B4D17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = HealthAdvisor.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.alexdesign.healthadvisor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9AC23568CF79469CBA0046CF /* Build configuration list for PBXProject "HealthAdvisor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				818F10ECE71944D79B6C82DF /* Debug */,
+				566D83321909481689B5574E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D0AC7D55E188486AB63EF7B4 /* Build configuration list for PBXNativeTarget "HealthAdvisor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E47521F9C0EA42288C5B4D17 /* Debug */,
+				D8D9963C4C364E4388551BE6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F91A821D490248719FBA4E3E /* Project object */;
+}
